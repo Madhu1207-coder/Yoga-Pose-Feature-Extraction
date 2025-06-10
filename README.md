@@ -12,6 +12,13 @@ Key functionalities include:
 * 🧩 **Modular Design** – Clear separation of estimation, feature extraction, and data management modules.
 
 This repo is ideal for anyone building **AI-driven yoga assistants**, fitness trackers, or classification systems using pose-based features.
+<p align="center">
+  <img src="https://static1.squarespace.com/static/61d3cc4a960d41134f9099d7/61dcce661002a946fb3df95e/61dcce7d1002a946fb3e5d34/1651563384845/tumblr_inline_nzgp24WS8P1rjic88_500.gif?format=1500w" 
+       alt="Yoga Pose Animation" 
+       width="300" 
+       style="border-radius: 10px;" />
+</p>
+
 
 ---
 
@@ -106,19 +113,16 @@ Yoga‑Pose‑Feature‑Extraction/
 
 ---
 
-## 👨‍💻 Author
+📄 Author
+<table> <tr> <td width="150"><strong>Name</strong></td> <td>: Madhumitha B</td> </tr> <tr> <td><strong>🎓 Role</strong></td> <td>: Aspiring AI & DS Engineer</td> </tr> <tr> <td><strong>🔗 Portfolio</strong></td> <td>: <a href="https://sites.google.com/view/madhumitha-b/project-page" target="_blank">View My Website</a></td> </tr> <tr> <td><strong>📧 Email</strong></td> <td>: <a href="mailto:Madhumithab1207@gmail.com">Madhumithab1207@gmail.com</a></td> </tr> </table>
 
-**Madhu [@Madhu1207‑coder](https://github.com/Madhu1207-coder)**
 
-Feel free to reach out with feedback, issues, or collaborations!
-
----
 
 ## 📜 License
 
 Licensed under the **MIT License** (see `LICENSE` file).
 
----
+
 
 ## 🌟 Contributing
 
@@ -129,6 +133,6 @@ Contributions are welcome! Here’s how you can help:
 3. Describe your feature or fix clearly
 4. I may reach out for clarifications or improvements
 
----
+
 
 
