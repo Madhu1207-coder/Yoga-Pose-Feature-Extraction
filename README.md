@@ -1,1 +1,134 @@
-# Yoga-Pose-Feature-Extraction
+
+# 🧘‍♀️ Yoga Pose Feature Extraction
+
+## 📄 Overview
+
+Key functionalities include:
+
+* 🤖 **Pose Estimation** – Use PoseNet/MediaPipe to detect human keypoints (joints, limbs).
+* 📐 **Angle-Based Feature Extraction** – Compute joint angles (elbow, knee, shoulder, etc.) for each frame.
+* 📊 **Feature Vector Generation** – Prepare angle sets for each frame for model input.
+* 💾 **Data Export** – Save features (e.g., in CSV) for training classification or regression models.
+* 🧩 **Modular Design** – Clear separation of estimation, feature extraction, and data management modules.
+
+This repo is ideal for anyone building **AI-driven yoga assistants**, fitness trackers, or classification systems using pose-based features.
+
+---
+
+## 🚀 Features & Characteristics
+
+| Feature                      | Description                                                           |
+| ---------------------------- | --------------------------------------------------------------------- |
+| 🎯 Pose Estimation           | Detect 17+ keypoints per frame via PoseNet/MediaPipe.                 |
+| 📐 Angle Computation         | Calculate angles between limbs (e.g., knee, elbow, shoulder angles).  |
+| 🧠 Feature Extraction Module | Encapsulates logic for angle calculation and normalization.           |
+| 📂 Dataset Preparation       | Compute & store feature vectors for each detected frame.              |
+| 🛠️ Modular Structure        | Separate scripts for pose extraction, angle logic, and data handling. |
+| 🛡 Quality Control           | Handle missing keypoints; clean inaccurate data entries.              |
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+Yoga‑Pose‑Feature‑Extraction/
+├── src/
+│   ├── pose_estimation.py        # Wraps PoseNet/MediaPipe inference
+│   ├── angle_features.py         # Contains functions to compute joint angles
+│   └── data_export.py            # Exports frames → angle CSV or JSON
+├── data/
+│   ├── raw/                      # Input videos or image collections
+│   └── processed/                # CSV or JSON of computed features
+├── notebooks/
+│   └── analysis.ipynb            # Exploratory data analysis on angle features
+├── requirements.txt             # Python dependencies
+└── README.md
+```
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Madhu1207-coder/Yoga-Pose-Feature-Extraction.git
+   cd Yoga-Pose-Feature-Extraction
+   ```
+
+2. **Set up virtual environment (recommended)**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate      # Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## ⚙️ Usage
+
+1. **Prepare your data**
+   Place yoga videos or image folders under `data/raw/`
+
+2. **Run pose estimation & feature extraction**
+
+   ```bash
+   python src/pose_estimation.py --input data/raw/ --output tmp/keypoints.json
+   python src/angle_features.py --keypoints tmp/keypoints.json --output data/processed/angles.csv
+   ```
+
+3. **Analyze features**
+   Use the notebook to explore distribution of angles across yoga poses.
+
+4. **Use with ML models**
+   Train classification/regression models on the feature CSV (e.g., pose recognition).
+
+---
+
+## 📊 Example Output
+
+* `keypoints.json`: contains frame-wise lists of detected (x, y) coordinates.
+* `angles.csv`: rows with computed joint angles per frame — ready for ML pipelines.
+
+---
+
+## ✅ Use Case Scenarios
+
+* **Pose Classification**: Using angle data to determine which yoga asana is being performed.
+* **Fitness App Development**: Build feedback loops based on ideal joint alignments.
+* **Research**: Analyze posture consistency or correctness across users or exercises.
+
+---
+
+## 👨‍💻 Author
+
+**Madhu [@Madhu1207‑coder](https://github.com/Madhu1207-coder)**
+
+Feel free to reach out with feedback, issues, or collaborations!
+
+---
+
+## 📜 License
+
+Licensed under the **MIT License** (see `LICENSE` file).
+
+---
+
+## 🌟 Contributing
+
+Contributions are welcome! Here’s how you can help:
+
+1. ⭐ Star the repo
+2. Fork → feature-branch → Pull request
+3. Describe your feature or fix clearly
+4. I may reach out for clarifications or improvements
+
+---
+
+
