@@ -133,6 +133,7 @@ Contributions are welcome! Here’s how you can help:
 3. Describe your feature or fix clearly
 4. I may reach out for clarifications or improvements
 
-
+🙏 Thank You!
+<p align="center"> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a2418f60390643.5a4b910e63f83.gif" width="250" style="border-radius: 50%;" alt="Thank You GIF"/> </p>
 
 
