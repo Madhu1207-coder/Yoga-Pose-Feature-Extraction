@@ -103,7 +103,23 @@ Yoga‑Pose‑Feature‑Extraction/
 * `keypoints.json`: contains frame-wise lists of detected (x, y) coordinates.
 * `angles.csv`: rows with computed joint angles per frame — ready for ML pipelines.
 
----
+
+### 📓 Output – Yoga Pose Feature Extraction
+
+<p align="center">
+  <a href="https://github.com/Madhu1207-coder/Yoga-Pose-Feature-Extraction/blob/main/yoga%20pose/yoga-pose-feature-extraction.ipynb">
+    <img src="https://img.shields.io/badge/Open%20Notebook-Yoga%20Pose%20Feature%20Extraction-blue?style=for-the-badge&logo=jupyter" alt="Open Notebook">
+  </a>
+</p>
+
+📘 **Click the badge above to view the full Jupyter Notebook.**
+
+> 💡 For a better preview experience, open it in **[nbviewer](https://nbviewer.org/)**:
+
+```markdown
+🔍 [View in nbviewer](https://nbviewer.org/github/Madhu1207-coder/Yoga-Pose-Feature-Extraction/blob/main/yoga%20pose/yoga-pose-feature-extraction.ipynb)
+```
+
 
 ## ✅ Use Case Scenarios
 
