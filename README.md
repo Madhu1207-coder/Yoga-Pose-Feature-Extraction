@@ -97,6 +97,8 @@ Yoga‑Pose‑Feature‑Extraction/
    Train classification/regression models on the feature CSV (e.g., pose recognition).
 
 ---
+🛠️ Tech Stack Used
+<p align="center"> <img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook"> <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/MediaPipe-Pose%20Detection-red?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe"> <img src="https://img.shields.io/badge/Numpy-NDArray-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"> <img src="https://img.shields.io/badge/Pandas-DataFrame-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"> <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib"> </p>
 
 ## 📊 Example Output
 
